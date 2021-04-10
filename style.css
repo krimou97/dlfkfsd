@@ -1,0 +1,118 @@
+body {
+    background-color: #f0f2f5;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+div.main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+}
+
+div.logo {
+    width: 300px;
+    height: 106px;
+}
+
+div.text {
+    margin-left: 35px;
+}
+
+div.text-part {
+    margin-right: 40px;
+    margin-top: 145px;
+}
+
+div.conect {
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    border-radius: 5px;
+    box-shadow: gray 3px 3px 3px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.conect input {
+    width: 360px;
+    height: 45px;
+    margin-top: 20px;
+    padding: 5px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+span.login {
+    margin-top: 20px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 355px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+div.devider {
+    width: 365px;
+    height: 1px;
+    background-color: gray;
+}
+
+a.FP {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: blue;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+span.new {
+    margin-top: 15px;
+    width: 170px;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #42b72a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+div.m2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.c-page {
+    margin-right: 100px;
+}
+
+a.CP {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    height: 2rem;
+    background-color: red;
+    margin-bottom: 0;
+}
